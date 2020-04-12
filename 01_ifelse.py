@@ -25,7 +25,7 @@ import re
 import sys
 
 if __name__ == '__main__':
-    n = int(input().strip())
+    n = int(input("Enter a number >>> ").strip())
     if n % 2 == 1:
         print("Weird")
     if n % 2 == 0 and 2 <= n <= 5:
